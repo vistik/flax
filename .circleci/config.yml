@@ -18,6 +18,7 @@ jobs:
 
     steps:
       - checkout
+      - cp .env.example .env
 
       # Download and cache dependencies
       - restore_cache:
