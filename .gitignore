@@ -11,3 +11,7 @@ npm-debug.log
 yarn-error.log
 .idea
 tmp
+zip
+.netlify/state.json
+_ide_helper.php
+storage/documentations

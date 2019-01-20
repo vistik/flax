@@ -19,4 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('/generate', 'GenerateDocsController@generate');
 
+Route::post('/documentations', 'DocumentationController@store');
 
+Route::get('/documentations/{uuid}', 'DocumentationController@show');
+
+Route::post('/documentations/{uuid}/deploy', 'DocumentationController@deploy');
